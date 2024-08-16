@@ -1,0 +1,11 @@
+import numpy as np
+array = np.arange(8) 
+print("Original array") 
+print(array) 
+print("Power of 3 for every element-wise:") 
+print(np.power(array, 3))
+a1= np.arange(5) 
+a2 = np.arange(0, 10, 2) 
+print("Array1:",a1) 
+print("Array2:", a2) 
+print("Power of array1 to array2",a1**a2)
